@@ -79,6 +79,9 @@ export default class PathfindingVisualizer extends Component {
 
     return (
       <>
+        <h1>Dijkstra's Algorithm</h1>
+        <h4>Find the shortest path between the two points</h4>
+        <h5>Left click with your mouse to place walls, press the button to see the algorithm in action!</h5>
         <button onClick={() => this.visualizeDijkstra()}>
           Visualize Dijkstra's Algorithm
         </button>
